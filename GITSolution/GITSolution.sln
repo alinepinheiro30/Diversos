@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.TESTS", "4.TESTS", "{386A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GITSolutionXUnitTest", "Source\GITSolutionXUnitTest\GITSolutionXUnitTest.csproj", "{D11C8799-67EF-491B-ACE4-1FB5BDC51D0B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.DOMAIN", "2.DOMAIN", "{1C2BB17D-E2ED-4A3A-86F7-AC156C7309D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GITSolutionCoreClassLibrary", "Source\GITSolutionCoreClassLibrary\GITSolutionCoreClassLibrary.csproj", "{CCBC63CD-C790-4B71-A395-8DDE02E89766}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +23,17 @@ Global
 		{D11C8799-67EF-491B-ACE4-1FB5BDC51D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D11C8799-67EF-491B-ACE4-1FB5BDC51D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D11C8799-67EF-491B-ACE4-1FB5BDC51D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBC63CD-C790-4B71-A395-8DDE02E89766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBC63CD-C790-4B71-A395-8DDE02E89766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBC63CD-C790-4B71-A395-8DDE02E89766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBC63CD-C790-4B71-A395-8DDE02E89766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D11C8799-67EF-491B-ACE4-1FB5BDC51D0B} = {386A3DE7-18F4-47EE-8B04-E853E54E9FB8}
+		{CCBC63CD-C790-4B71-A395-8DDE02E89766} = {1C2BB17D-E2ED-4A3A-86F7-AC156C7309D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {703D5DFB-FA61-43BF-A333-4932F94D2FE3}
